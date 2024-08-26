@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\94643227\\Desktop\\PreguntadORT\\PreguntadORT.csproj": {}
+    "C:\\Users\\USUARIO\\OneDrive\\Escritorio\\Nueva carpeta\\PreguntadORT.csproj": {}
   },
   "projects": {
-    "C:\\Users\\94643227\\Desktop\\PreguntadORT\\PreguntadORT.csproj": {
+    "C:\\Users\\USUARIO\\OneDrive\\Escritorio\\Nueva carpeta\\PreguntadORT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\94643227\\Desktop\\PreguntadORT\\PreguntadORT.csproj",
+        "projectUniqueName": "C:\\Users\\USUARIO\\OneDrive\\Escritorio\\Nueva carpeta\\PreguntadORT.csproj",
         "projectName": "PreguntadORT",
-        "projectPath": "C:\\Users\\94643227\\Desktop\\PreguntadORT\\PreguntadORT.csproj",
-        "packagesPath": "C:\\Users\\94643227\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\94643227\\Desktop\\PreguntadORT\\obj\\",
+        "projectPath": "C:\\Users\\USUARIO\\OneDrive\\Escritorio\\Nueva carpeta\\PreguntadORT.csproj",
+        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USUARIO\\OneDrive\\Escritorio\\Nueva carpeta\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\94643227\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -77,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
