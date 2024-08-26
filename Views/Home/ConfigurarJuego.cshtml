@@ -1,0 +1,18 @@
+@{
+    ViewBag.Title = "Configurar Juego";
+}
+
+<div class="ruleta-container">
+    <div class="ruleta" id="ruleta">
+        <div class="seccion" style="transform: rotate(0deg);">Ciencia</div>
+        <div class="seccion" style="transform: rotate(60deg);">Deportes</div>
+        <div class="seccion" style="transform: rotate(120deg);">Historia</div>
+        <div class="seccion" style="transform: rotate(180deg);">Geografía</div>
+        <div class="seccion" style="transform: rotate(240deg);">Arte</div>
+        <div class="seccion" style="transform: rotate(300deg);">Entretenimiento</div>
+    </div>
+</div>
+
+<button onclick="girarRuleta()">Girar Ruleta</button>
+
+<div id="resultado"></div>

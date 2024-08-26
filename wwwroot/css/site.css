@@ -20,3 +20,50 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.ruleta-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.ruleta {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px solid #000;
+  overflow: hidden;
+}
+
+.seccion {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background-color: #FFD700;
+  transform-origin: 100% 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-weight: bold;
+}
+
+.seccion:nth-child(even) {
+  background-color: #FF4500;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+#resultado {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}

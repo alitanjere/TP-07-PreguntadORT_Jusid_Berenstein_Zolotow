@@ -6,3 +6,75 @@ Z:\PROG 4TO AÑO\PreguntadORT\obj\Debug\net8.0\PreguntadORT.csproj.CoreCompileIn
 Z:\PROG 4TO AÑO\PreguntadORT\obj\Debug\net8.0\PreguntadORT.MvcApplicationPartsAssemblyInfo.cache
 Z:\PROG 4TO AÑO\PreguntadORT\obj\Debug\net8.0\PreguntadORT.RazorAssemblyInfo.cache
 Z:\PROG 4TO AÑO\PreguntadORT\obj\Debug\net8.0\PreguntadORT.RazorAssemblyInfo.cs
+Z:\PROG 4TO AÑO\PreguntadORT\bin\Debug\net8.0\appsettings.Development.json
+Z:\PROG 4TO AÑO\PreguntadORT\bin\Debug\net8.0\appsettings.json
+Z:\PROG 4TO AÑO\PreguntadORT\bin\Debug\net8.0\PreguntadORT.staticwebassets.runtime.json
+Z:\PROG 4TO AÑO\PreguntadORT\bin\Debug\net8.0\PreguntadORT.exe
+Z:\PROG 4TO AÑO\PreguntadORT\bin\Debug\net8.0\PreguntadORT.deps.json
+Z:\PROG 4TO AÑO\PreguntadORT\bin\Debug\net8.0\PreguntadORT.runtimeconfig.json
+Z:\PROG 4TO AÑO\PreguntadORT\bin\Debug\net8.0\PreguntadORT.dll
+Z:\PROG 4TO AÑO\PreguntadORT\bin\Debug\net8.0\PreguntadORT.pdb
+Z:\PROG 4TO AÑO\PreguntadORT\bin\Debug\net8.0\Dapper.dll
+Z:\PROG 4TO AÑO\PreguntadORT\bin\Debug\net8.0\System.Data.SqlClient.dll
+Z:\PROG 4TO AÑO\PreguntadORT\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+Z:\PROG 4TO AÑO\PreguntadORT\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+Z:\PROG 4TO AÑO\PreguntadORT\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+Z:\PROG 4TO AÑO\PreguntadORT\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+Z:\PROG 4TO AÑO\PreguntadORT\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+Z:\PROG 4TO AÑO\PreguntadORT\obj\Debug\net8.0\PreguntadORT.sourcelink.json
+Z:\PROG 4TO AÑO\PreguntadORT\obj\Debug\net8.0\staticwebassets.build.json
+Z:\PROG 4TO AÑO\PreguntadORT\obj\Debug\net8.0\staticwebassets.development.json
+Z:\PROG 4TO AÑO\PreguntadORT\obj\Debug\net8.0\staticwebassets\msbuild.PreguntadORT.Microsoft.AspNetCore.StaticWebAssets.props
+Z:\PROG 4TO AÑO\PreguntadORT\obj\Debug\net8.0\staticwebassets\msbuild.build.PreguntadORT.props
+Z:\PROG 4TO AÑO\PreguntadORT\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PreguntadORT.props
+Z:\PROG 4TO AÑO\PreguntadORT\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PreguntadORT.props
+Z:\PROG 4TO AÑO\PreguntadORT\obj\Debug\net8.0\staticwebassets.pack.json
+Z:\PROG 4TO AÑO\PreguntadORT\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+Z:\PROG 4TO AÑO\PreguntadORT\obj\Debug\net8.0\scopedcss\bundle\PreguntadORT.styles.css
+Z:\PROG 4TO AÑO\PreguntadORT\obj\Debug\net8.0\scopedcss\projectbundle\PreguntadORT.bundle.scp.css
+Z:\PROG 4TO AÑO\PreguntadORT\obj\Debug\net8.0\Pregunta.496DBD53.Up2Date
+Z:\PROG 4TO AÑO\PreguntadORT\obj\Debug\net8.0\PreguntadORT.dll
+Z:\PROG 4TO AÑO\PreguntadORT\obj\Debug\net8.0\refint\PreguntadORT.dll
+Z:\PROG 4TO AÑO\PreguntadORT\obj\Debug\net8.0\PreguntadORT.pdb
+Z:\PROG 4TO AÑO\PreguntadORT\obj\Debug\net8.0\PreguntadORT.genruntimeconfig.cache
+Z:\PROG 4TO AÑO\PreguntadORT\obj\Debug\net8.0\ref\PreguntadORT.dll
+C:\Users\94643227\Desktop\PreguntadORT\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\94643227\Desktop\PreguntadORT\bin\Debug\net8.0\appsettings.json
+C:\Users\94643227\Desktop\PreguntadORT\bin\Debug\net8.0\PreguntadORT.staticwebassets.runtime.json
+C:\Users\94643227\Desktop\PreguntadORT\bin\Debug\net8.0\PreguntadORT.exe
+C:\Users\94643227\Desktop\PreguntadORT\bin\Debug\net8.0\PreguntadORT.deps.json
+C:\Users\94643227\Desktop\PreguntadORT\bin\Debug\net8.0\PreguntadORT.runtimeconfig.json
+C:\Users\94643227\Desktop\PreguntadORT\bin\Debug\net8.0\PreguntadORT.dll
+C:\Users\94643227\Desktop\PreguntadORT\bin\Debug\net8.0\PreguntadORT.pdb
+C:\Users\94643227\Desktop\PreguntadORT\bin\Debug\net8.0\Dapper.dll
+C:\Users\94643227\Desktop\PreguntadORT\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\94643227\Desktop\PreguntadORT\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\94643227\Desktop\PreguntadORT\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\94643227\Desktop\PreguntadORT\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\94643227\Desktop\PreguntadORT\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\94643227\Desktop\PreguntadORT\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\94643227\Desktop\PreguntadORT\obj\Debug\net8.0\PreguntadORT.csproj.AssemblyReference.cache
+C:\Users\94643227\Desktop\PreguntadORT\obj\Debug\net8.0\PreguntadORT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\94643227\Desktop\PreguntadORT\obj\Debug\net8.0\PreguntadORT.AssemblyInfoInputs.cache
+C:\Users\94643227\Desktop\PreguntadORT\obj\Debug\net8.0\PreguntadORT.AssemblyInfo.cs
+C:\Users\94643227\Desktop\PreguntadORT\obj\Debug\net8.0\PreguntadORT.csproj.CoreCompileInputs.cache
+C:\Users\94643227\Desktop\PreguntadORT\obj\Debug\net8.0\PreguntadORT.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\94643227\Desktop\PreguntadORT\obj\Debug\net8.0\PreguntadORT.RazorAssemblyInfo.cache
+C:\Users\94643227\Desktop\PreguntadORT\obj\Debug\net8.0\PreguntadORT.RazorAssemblyInfo.cs
+C:\Users\94643227\Desktop\PreguntadORT\obj\Debug\net8.0\PreguntadORT.sourcelink.json
+C:\Users\94643227\Desktop\PreguntadORT\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\94643227\Desktop\PreguntadORT\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\94643227\Desktop\PreguntadORT\obj\Debug\net8.0\staticwebassets\msbuild.PreguntadORT.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\94643227\Desktop\PreguntadORT\obj\Debug\net8.0\staticwebassets\msbuild.build.PreguntadORT.props
+C:\Users\94643227\Desktop\PreguntadORT\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PreguntadORT.props
+C:\Users\94643227\Desktop\PreguntadORT\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PreguntadORT.props
+C:\Users\94643227\Desktop\PreguntadORT\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\94643227\Desktop\PreguntadORT\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\94643227\Desktop\PreguntadORT\obj\Debug\net8.0\scopedcss\bundle\PreguntadORT.styles.css
+C:\Users\94643227\Desktop\PreguntadORT\obj\Debug\net8.0\scopedcss\projectbundle\PreguntadORT.bundle.scp.css
+C:\Users\94643227\Desktop\PreguntadORT\obj\Debug\net8.0\Pregunta.496DBD53.Up2Date
+C:\Users\94643227\Desktop\PreguntadORT\obj\Debug\net8.0\PreguntadORT.dll
+C:\Users\94643227\Desktop\PreguntadORT\obj\Debug\net8.0\refint\PreguntadORT.dll
+C:\Users\94643227\Desktop\PreguntadORT\obj\Debug\net8.0\PreguntadORT.pdb
+C:\Users\94643227\Desktop\PreguntadORT\obj\Debug\net8.0\PreguntadORT.genruntimeconfig.cache
+C:\Users\94643227\Desktop\PreguntadORT\obj\Debug\net8.0\ref\PreguntadORT.dll
