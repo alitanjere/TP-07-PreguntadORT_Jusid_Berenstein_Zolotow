@@ -40,4 +40,15 @@ public class Juegos
         return ListPreguntas[numRand];
     }
 
+    public static List <Respuesta> ObtenerProximasRespuestas(int idPregunta)
+    {
+        List<Respuestas> respuestas = new List<Respuestas>();
+        foreach(Respuesta rep in ListRespuestas){
+            if (rep.IdPregunta == idPregunta){
+                respuestas.Add(Respuesta.Contenido);
+            }
+        }
+        return respuestas;
+    }
+
 }
