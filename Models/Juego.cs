@@ -14,4 +14,30 @@ public class Juegos
         ListPreguntas = new List<Pregunta>();
         ListRespuestas = new List<Respuesta>();
     }
+    public static List<Categorias> ObtenerCategorias()
+    {
+        return BD.ObtenerCategorias();
+    }
+
+    public static List<Dificultades> ObtenerDificultades()
+    {
+        return BD.ObtenerDificultades();
+    }
+
+    public static void CargarPartida(string userName, int dificultad, int categoria)
+    {
+
+        username = userName;
+        ListPreguntas = BD.ObtenerPreguntas(dificultad, categoria);
+        ListRespuestas = BD.ObtenerRespuestas(ListPreguntas);
+
+    }
+
+    public static Pregunta ObtenerProximaPregunta()
+    {
+        Random NumRand = new Random();
+        int numRand = NumRand.Next(0, ListPreguntas.Count());
+        return ListPreguntas[numRand];
+    }
+
 }
