@@ -1,4 +1,4 @@
-public class Juegos
+public class Juego
 {
     private static string username;
     private static int puntajeActual;
@@ -42,13 +42,25 @@ public class Juegos
 
     public static List <Respuesta> ObtenerProximasRespuestas(int idPregunta)
     {
-        List<Respuestas> respuestas = new List<Respuestas>();
+        List<Respuesta> respuestas = new List<Respuesta>();
         foreach(Respuesta rep in ListRespuestas){
             if (rep.IdPregunta == idPregunta){
-                respuestas.Add(Respuesta.Contenido);
+                respuestas.Add(rep);
             }
         }
         return respuestas;
+    }
+
+    public static bool VerificarRespuesta(int idPregunta, int idRespuesta){
+        bool esCorrecta= false;
+        Respuesta rep = ListRespuestas[idRespuesta];
+        if(idRespuesta == rep.IdRespuesta){
+            esCorrecta = true;
+            cantidadPreguntasCorrectas++;
+            puntajeActual+= 10;
+            ListPreguntas.RemoveAt(idPregunta);
+        }
+        return esCorrecta;
     }
 
 }

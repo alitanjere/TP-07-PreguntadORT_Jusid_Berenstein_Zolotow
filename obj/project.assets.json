@@ -505,23 +505,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\48178406\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\94643227\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\48178406\\Desktop\\Nueva carpeta\\PreguntadORT.csproj",
+      "projectUniqueName": "Z:\\PROG 4TO AÑO\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\PreguntadORT.csproj",
       "projectName": "PreguntadORT",
-      "projectPath": "C:\\Users\\48178406\\Desktop\\Nueva carpeta\\PreguntadORT.csproj",
-      "packagesPath": "C:\\Users\\48178406\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\48178406\\Desktop\\Nueva carpeta\\obj\\",
+      "projectPath": "Z:\\PROG 4TO AÑO\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\PreguntadORT.csproj",
+      "packagesPath": "C:\\Users\\94643227\\.nuget\\packages\\",
+      "outputPath": "Z:\\PROG 4TO AÑO\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\48178406\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\94643227\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -580,7 +581,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
