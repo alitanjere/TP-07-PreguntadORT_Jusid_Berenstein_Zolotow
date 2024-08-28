@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\PROG 4TO AÑO\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\PreguntadORT.csproj": {}
+    "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\PreguntadORT.csproj": {}
   },
   "projects": {
-    "Z:\\PROG 4TO AÑO\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\PreguntadORT.csproj": {
+    "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\PreguntadORT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\PROG 4TO AÑO\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\PreguntadORT.csproj",
+        "projectUniqueName": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\PreguntadORT.csproj",
         "projectName": "PreguntadORT",
-        "projectPath": "Z:\\PROG 4TO AÑO\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\PreguntadORT.csproj",
+        "projectPath": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\PreguntadORT.csproj",
         "packagesPath": "C:\\Users\\94643227\\.nuget\\packages\\",
-        "outputPath": "Z:\\PROG 4TO AÑO\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\obj\\",
+        "outputPath": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -77,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

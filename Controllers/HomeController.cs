@@ -45,12 +45,18 @@ public class HomeController : Controller
     }
 
     public  IActionResult Jugar(){
-        Pregunta pregJugar = Juego.ObtenerProximaPregunta();
-        ViewBag.EnunciadoJugar = pregJugar.Enunciado;
-        ViewBag.FotoJugar = pregJugar.Foto;
-        ViewBag.RespuestasJugar = Juego.ObtenerProximasRespuestas(pregJugar.IdPregunta);
-        //if(Juego == null )
+        ViewBag.PregJugar = Juego.ObtenerProximaPregunta();
+        int idJugar = ViewBag.PregJugar.IdPregunta;
+        //ViewBag.FotoJugar = pregJugar.Foto;        
+        //ViewBag.EnunciadoJugar = pregJugar.Enunciado;
+        //ViewBag.RespuestasJugar = Juego.ObtenerProximasRespuestas(pregJugar.IdPregunta);
+        if(ViewBag.PregJugar == null )
         {
+            return View ("Fin");
+        }
+        else{
+            ViewBag.RespuestaJugar = Juego.ObtenerProximasRespuestas(idJugar);
+            return View ("Juego");
         }
         
     }
