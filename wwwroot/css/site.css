@@ -44,3 +44,10 @@ button {
   font-size: 20px;
   margin-top: 20px;
 }
+
+.ConfigurarJuego {
+  background-image: url("../images/Fondo1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}

@@ -1,19 +1,13 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
-
-// Write your JavaScript code.
-function girarRuleta() {
+﻿function girarRuleta() {
     const ruleta = document.getElementById('ruleta');
     const resultado = document.getElementById('resultado');
 
-    // Genera un número aleatorio para la rotación (0 a 3600 grados para varios giros)
     const rotacion = Math.floor(Math.random() * 3600) + 360;
 
     // Aplica la animación de rotación
     ruleta.style.transition = 'transform 5s ease-out';
     ruleta.style.transform = `rotate(${rotacion}deg)`;
 
-    // Calcula en qué sección se detiene la ruleta después de girar
     setTimeout(() => {
         const anguloFinal = rotacion % 360;
         let seccion;
@@ -33,5 +27,5 @@ function girarRuleta() {
         }
 
         resultado.textContent = `¡La categoría es: ${seccion}!`;
-    }, 5000); // El tiempo coincide con la duración de la animación
+    }, 5000);
 }
