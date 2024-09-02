@@ -3,16 +3,14 @@ public class Juego
     private static string username;
     private static int puntajeActual;
     private static int cantidadPreguntasCorrectas;
-    private static List<Pregunta> ListPreguntas;
-    private static List<Respuesta> ListRespuestas;
+    private static List<Pregunta> ListPreguntas = new List<Pregunta>();
+    private static List<Respuesta> ListRespuestas = new List<Respuesta>();
 
     public static void InicializarJuego()
     {
         username = "";
         puntajeActual = 0;
         cantidadPreguntasCorrectas = 0;
-        ListPreguntas = new List<Pregunta>();
-        ListRespuestas = new List<Respuesta>();
     }
     public static List<Categorias> ObtenerCategorias()
     {
@@ -24,10 +22,9 @@ public class Juego
         return BD.ObtenerDificultades();
     }
 
-    public static void CargarPartida(string userName, int dificultad, int categoria)
+    public static void CargarPartida(string username, int dificultad, int categoria)
     {
-
-        username = userName;
+        username = username;
         ListPreguntas = BD.ObtenerPreguntas(dificultad, categoria);
         ListRespuestas = BD.ObtenerRespuestas(ListPreguntas);
 
@@ -36,7 +33,7 @@ public class Juego
     public static Pregunta ObtenerProximaPregunta()
     {
         Random NumRand = new Random();
-        int numRand = NumRand.Next(0, ListPreguntas.Count());
+        int numRand = NumRand.Next(0, ListPreguntas.Count);
         return ListPreguntas[numRand];
     }
 

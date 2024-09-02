@@ -1,19 +1,27 @@
 ﻿@{
     ViewBag.Title = "Configuar Juego";
 }
-
-<div class="ConfigurarJuego">
+<form action='@Url.Action("Comenzar")'>
+    <div>
+    <label>NOMBRE </label><input type="text" name="username" required></div>
+    <div><label>DIFICULTADES</label><select input type="select" name="dificultad">
+     <option value="-1" selected>Todas</option>
+    @foreach(Dificultades dif in @ViewBag.ListaDificultades){
+    <option value="">@dif.Nombre</option>}
+    </select></div>
+    <div><label>CATEGORIAS</label><select input type="select" name="categoria">
+     <option value="-1" selected>Todas</option>
+    @foreach(Categorias cat in @ViewBag.Categorias){
+    <option value="">@cat.Nombre</option>}
+    </select></div>
+    <div class = "btns"><input type="submit">
+    <input type="reset"></div>
+</form>
+<!--<div class="ConfigurarJuego">
     <form  id="Username">
         <div class="d-flex align-items-center justify-content-center">
-            <h1>Ingrese su nombre de usuario</h5>
-            <input type="text" id="nombreUsuario" required>
-            <button onclick="ingresarUsuario()" id="botonUsuario">Ingresar</button>
-        </div>
-    </form>
-    <form  id="Username">
-        <div class="d-flex align-items-center justify-content-center">
-            <h1>Ingrese su nombre de usuario</h5>
-            <input type="text" id="nombreUsuario" required>
+            <h5>Ingrese su nombre de usuario</h5>
+            <input type="text" id="nombreUsuario" required name = "username">
             <button onclick="ingresarUsuario()" id="botonUsuario">Ingresar</button>
         </div>
     </form>
@@ -26,14 +34,14 @@
 
     <div id="resultado-container">
         <div id="resultado"></div>
-        <button id="continuarBtn" onclick="continuar()" style="display: none;">Continuar</button>
+        <button id="continuarBtn" onclick="continuar()" style="display: none;" href='@Url.Action("Comenzar")'>Continuar</button>
     </div>
 </div>
 
 @section Scripts {
     <script>
         let buttonClicked = false;
-        const categorias = ["Historia", "Ciencia", "Geografía", "Arte", "Deportes"];
+        const categorias = ["Historia", "Ciencia", "Geografía", "Arte", "Deportes", "Todas"];
         const colores = ["#FF6F61", "#6B5B95", "#88B04B", "#F7CAC9", "#92A8D1"];
         const numSecciones = categorias.length;
         const anguloPorSeccion = 2 * Math.PI / numSecciones;
@@ -89,7 +97,7 @@
             buttonClicked = true;
 
             // Calcular una rotación a la derecha
-            const rotacion = Math.floor(Math.random() * 3600) + 360;
+            const rotacion = Math.floor( 3600) + 360;
             const duracion = 5; // duración en segundos
             canvas.style.transition = `transform ${duracion}s ease-out`;
             canvas.style.transform = `rotate(${rotacion}deg)`;
@@ -98,7 +106,7 @@
                 const anguloFinal = rotacion % 360;
                 const indiceGanador = Math.floor(numSecciones - (anguloFinal / 360) * numSecciones) % numSecciones;
 
-                document.getElementById("resultado").textContent = `¡La categoría es: ${categorias[indiceGanador]}! y su usuario es ${nombre.value}`;
+                document.getElementById("resultado").textContent = `¡La categoría es: ${categorias[indiceGanador]}!`;
                 document.getElementById("continuarBtn").style.display = 'block'; // Mostrar el botón Continuar
                 document.getElementById("girarBtn").disabled = true; // Deshabilitar el botón Girar
                 canvas.style.transition = "none"; // Para permitir más giros posteriores

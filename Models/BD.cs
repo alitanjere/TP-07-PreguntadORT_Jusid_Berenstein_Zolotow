@@ -3,7 +3,7 @@ using Dapper;
 
 public class BD
 {
-    private static string _connectionString = @"Server=localhost; DataBase=TP07-PreguntadORT; Trusted_Connection=True;";
+    private static string _connectionString = @"Server=localhost; DataBase=PreguntadORT; Trusted_Connection=True;";
 
     public static List<Categorias> ObtenerCategorias()
     {
@@ -29,6 +29,8 @@ public class BD
 
     public static List<Pregunta> ObtenerPreguntas(int dificultad, int categoria)
     {
+        Console.WriteLine(dificultad);
+        Console.WriteLine(categoria);
         List<Pregunta> ListPreguntas = new List<Pregunta>();
         string sql;
         using (SqlConnection db = new SqlConnection(_connectionString))

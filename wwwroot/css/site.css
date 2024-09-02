@@ -1,3 +1,7 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
 .ruleta-container {
   display: flex;
   justify-content: center;
@@ -50,4 +54,83 @@ button {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
+}
+.Index{
+  width: 100%;
+  height: 900px;
+  background-image: url(../images/fondoIndex.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: inset 0px 2px 41px -1px rgba(0,0,0,1);
+-moz-box-shadow: inset 0px 2px 41px -1px rgba(0,0,0,1);
+box-shadow: inset 0px 2px 41px -1px rgba(0,0,0,1);
+}
+
+.Index a{
+  background-color: rgb(156, 0, 156);
+  color: aliceblue;
+  font-weight:900;
+  text-decoration: none;
+  border-radius: 25px;
+  padding: 2%;
+  height: 2.5%;
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+  display: flex;
+  margin-top: 35%;
+}
+.Index a:hover{
+  background-color: rgb(141, 4, 141);
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.527);
+  
+}
+
+footer{
+  background-color: #000;
+  margin: 0px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 8%;
+}
+
+form div{
+  width: 80%;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+}
+
+form div label{
+  margin: 1%;
+  font-size: 2em;}
+
+form div input{
+  border-radius: 5px;
+  border: 1px solid gray;
+  width: 20%;
+  height: 38px;
+}
+form .btns{
+  width: 30%;
+  margin-top: 3%;
+}
+form .btns input{
+  margin-right: 3%;
+  background-color: #202020;
+  color: aliceblue;
+}
+form .btns input:hover{
+  background-color: #202020b4;
+
 }
