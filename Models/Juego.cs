@@ -4,7 +4,7 @@ public class Juego
     public static int puntajeActual;
     private static int cantidadPreguntasCorrectas;
     private static List<Pregunta> ListPreguntas = new List<Pregunta>();
-    public  static List<Respuesta> ListRespuestas = new List<Respuesta>();
+    public static List<Respuesta> ListRespuestas = new List<Respuesta>();
 
     public static void InicializarJuego()
     {
@@ -37,27 +37,46 @@ public class Juego
         return ListPreguntas[numRand];
     }
 
-    public static List <Respuesta> ObtenerProximasRespuestas(int idPregunta)
+    public static List<Respuesta> ObtenerProximasRespuestas(int idPregunta)
     {
         List<Respuesta> respuestas = new List<Respuesta>();
-        foreach(Respuesta rep in ListRespuestas){
-            if (rep.IdPregunta == idPregunta){
+        foreach (Respuesta rep in ListRespuestas)
+        {
+            if (rep.IdPregunta == idPregunta)
+            {
                 respuestas.Add(rep);
             }
         }
         return respuestas;
     }
 
-    public static bool VerificarRespuesta(int idPregunta, int idRespuesta){
-        bool esCorrecta= false;
-        Respuesta rep = ListRespuestas[idRespuesta];
-        if(idRespuesta == rep.IdRespuesta){
-            esCorrecta = true;
-            cantidadPreguntasCorrectas++;
-            puntajeActual+= 10;
+    public static bool VerificarRespuesta(int idPregunta, int idRespuesta)
+    {
+        if (ListPreguntas[idPregunta].IdPregunta == ListRespuestas[idPregunta].IdPregunta)
+        {
             ListPreguntas.RemoveAt(idPregunta);
+            ListPreguntas.RemoveAt(idRespuesta);
+            puntajeActual += 10;
+            return true;
         }
-        return esCorrecta;
+        else
+        {
+            return false;
+        }
+    }
+    public static Respuesta BuscarRespuesta(int idPregunta, int idRespuesta)
+    {
+        Respuesta respuesta = null;
+        foreach (Respuesta rep in Juego.ListRespuestas)
+        {
+            if (VerificarRespuesta(rep.IdPregunta, rep.IdRespuesta))
+            {
+                respuesta = rep;
+            }
+        }
+        return respuesta;
     }
 
 }
+
+
