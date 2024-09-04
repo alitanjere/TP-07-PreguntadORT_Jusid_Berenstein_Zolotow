@@ -35,7 +35,12 @@ public class BD
         string sql;
         using (SqlConnection db = new SqlConnection(_connectionString))
         {
-            if (dificultad == -1)
+            if (dificultad == -1 && categoria == -1)
+            {
+                sql = "SELECT Preguntas.*, Categorias.* FROM Preguntas INNER JOIN Categorias ON Preguntas.IdCategoria = Categorias.IdCategoria";
+                ListPreguntas = db.Query<Pregunta>(sql).ToList();
+            }
+            else if (dificultad == -1)
             {
                 sql = "SELECT * FROM Preguntas WHERE IdCategoria = @pCategoria";
                 ListPreguntas = db.Query<Pregunta>(sql, new { @pCategoria = categoria }).ToList();
@@ -50,6 +55,7 @@ public class BD
                 sql = "SELECT * FROM Preguntas WHERE IdDificultad = @pDificultad AND IdCategoria = @pCategoria";
                 ListPreguntas = db.Query<Pregunta>(sql, new { @pDificultad = dificultad, @pCategoria = categoria }).ToList();
             }
+
         }
         return ListPreguntas;
     }
