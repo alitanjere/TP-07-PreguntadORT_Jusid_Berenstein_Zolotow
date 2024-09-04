@@ -29,9 +29,10 @@
             @foreach(Respuesta rep in Juego.ObtenerProximasRespuestas(@ViewBag.PregJugar.IdPregunta)){
                 <div class = "option">
                 <input value="@rep.IdRespuesta" type="radio" name="flexRadioDefault">
-                <label for="flexRadioDefault1">@rep.Contenido </label></div>
-            
+                <label for="flexRadioDefault1">@rep.Contenido </label>
+                </div>
             }
+
         <input class="btn btn-dark" type="submit">
         </form>
         </div>

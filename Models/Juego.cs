@@ -52,6 +52,7 @@ public class Juego
 
     public static bool VerificarRespuesta(int idPregunta, int idRespuesta)
     {
+        //bool r = ListRespuestas.FindAll()
         if (ListPreguntas[idPregunta].IdPregunta == ListRespuestas[idPregunta].IdPregunta)
         {
             ListPreguntas.RemoveAt(idPregunta);
