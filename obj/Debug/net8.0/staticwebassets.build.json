@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "b+DsagDozgQzU7O6QO6NNaRM1zucjpuRg5esDM3ZgFc=",
+=======
+  "Hash": "EOy29vGyWmJILM6mkFPXKeaRJDthi+UmQzXFJlttxCQ=",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
   "Source": "PreguntadORT",
   "BasePath": "_content/PreguntadORT",
   "Mode": "Default",
@@ -10,17 +14,28 @@
     {
       "Name": "PreguntadORT\\wwwroot",
       "Source": "PreguntadORT",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\css\\site.css",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\css\\site.css",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -36,10 +51,17 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\favicon.ico",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\favicon.ico",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -55,10 +77,17 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\images\\Arte.png",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\images\\Arte.png",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "images/Arte.png",
       "AssetKind": "All",
@@ -74,10 +103,17 @@
       "OriginalItemSpec": "wwwroot\\images\\Arte.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\images\\ciencia.png",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\images\\ciencia.png",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "images/ciencia.png",
       "AssetKind": "All",
@@ -93,10 +129,17 @@
       "OriginalItemSpec": "wwwroot\\images\\ciencia.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\images\\cruz.webp",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\images\\cruz.webp",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "images/cruz.webp",
       "AssetKind": "All",
@@ -112,10 +155,17 @@
       "OriginalItemSpec": "wwwroot\\images\\cruz.webp"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\images\\Deportes.png",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\images\\Deportes.png",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "images/Deportes.png",
       "AssetKind": "All",
@@ -131,10 +181,17 @@
       "OriginalItemSpec": "wwwroot\\images\\Deportes.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\images\\flecha.png",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\images\\flecha.png",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "images/flecha.png",
       "AssetKind": "All",
@@ -150,10 +207,17 @@
       "OriginalItemSpec": "wwwroot\\images\\flecha.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\images\\fondoConfigurar.webp",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\images\\fondoConfigurar.webp",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "images/fondoConfigurar.webp",
       "AssetKind": "All",
@@ -169,10 +233,17 @@
       "OriginalItemSpec": "wwwroot\\images\\fondoConfigurar.webp"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\images\\fondoIndex.png",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\images\\fondoIndex.png",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "images/fondoIndex.png",
       "AssetKind": "All",
@@ -188,10 +259,17 @@
       "OriginalItemSpec": "wwwroot\\images\\fondoIndex.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\images\\Geografia.png",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\images\\Geografia.png",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "images/Geografia.png",
       "AssetKind": "All",
@@ -207,10 +285,17 @@
       "OriginalItemSpec": "wwwroot\\images\\Geografia.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\images\\Historia.png",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\images\\Historia.png",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "images/Historia.png",
       "AssetKind": "All",
@@ -226,6 +311,7 @@
       "OriginalItemSpec": "wwwroot\\images\\Historia.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\images\\Incorrecta.jpg",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
@@ -249,6 +335,12 @@
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\js\\site.js",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -264,10 +356,17 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -283,10 +382,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -302,10 +408,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -321,10 +434,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -340,10 +460,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -359,10 +486,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -378,10 +512,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -397,10 +538,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -416,10 +564,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -435,10 +590,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -454,10 +616,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -473,10 +642,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -492,10 +668,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -511,10 +694,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -530,10 +720,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -549,10 +746,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -568,10 +772,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -587,10 +798,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -606,10 +824,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -625,10 +850,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -644,10 +876,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -663,10 +902,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -682,10 +928,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -701,10 +954,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -720,10 +980,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -739,10 +1006,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -758,10 +1032,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -777,10 +1058,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -796,10 +1084,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -815,10 +1110,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -834,10 +1136,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -853,10 +1162,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -872,10 +1188,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -891,10 +1214,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -910,10 +1240,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -929,10 +1266,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -948,10 +1292,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -967,10 +1318,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -986,10 +1344,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1005,10 +1370,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1024,10 +1396,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1043,10 +1422,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1062,10 +1448,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1081,10 +1474,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1100,10 +1500,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1119,10 +1526,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1138,10 +1552,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1157,10 +1578,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1176,10 +1604,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1195,10 +1630,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1214,10 +1656,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1233,10 +1682,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1252,10 +1708,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1271,10 +1734,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1290,10 +1760,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1309,10 +1786,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1328,10 +1812,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "PreguntadORT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+>>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
       "BasePath": "_content/PreguntadORT",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

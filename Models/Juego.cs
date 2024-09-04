@@ -4,7 +4,7 @@ public class Juego
     public static int puntajeActual;
     private static int cantidadPreguntasCorrectas;
     private static List<Pregunta> ListPreguntas = new List<Pregunta>();
-    public  static List<Respuesta> ListRespuestas = new List<Respuesta>();
+    public static List<Respuesta> ListRespuestas = new List<Respuesta>();
 
     public static void InicializarJuego()
     {
@@ -37,11 +37,13 @@ public class Juego
         return ListPreguntas[numRand];
     }
 
-    public static List <Respuesta> ObtenerProximasRespuestas(int idPregunta)
+    public static List<Respuesta> ObtenerProximasRespuestas(int idPregunta)
     {
         List<Respuesta> respuestas = new List<Respuesta>();
-        foreach(Respuesta rep in ListRespuestas){
-            if (rep.IdPregunta == idPregunta){
+        foreach (Respuesta rep in ListRespuestas)
+        {
+            if (rep.IdPregunta == idPregunta)
+            {
                 respuestas.Add(rep);
             }
         }

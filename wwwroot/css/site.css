@@ -284,10 +284,6 @@ box-shadow: -1px 1px 33px 0px rgba(0,0,0,0.75);
     text-shadow:4px 4px 7px red;
   }
 
-  a{
-    padding: 2%;
-    border-radius: 25px;
-    height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -299,4 +295,3 @@ box-shadow: -1px 1px 33px 0px rgba(0,0,0,0.75);
   }
 }
 /*Fin Respuesta*/
-

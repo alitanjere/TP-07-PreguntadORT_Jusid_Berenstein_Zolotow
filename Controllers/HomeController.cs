@@ -75,7 +75,7 @@ private string ObtenerNombreImagenCategoria(int idCategoria)
         [HttpPost]
         public IActionResult VerificarRespuesta(int idPregunta, int idRespuesta)
         {
-            ViewBag.esCorrecta = Juego.VerificarRespuesta(idPregunta, idRespuesta);
+            ViewBag.esCorrecta = Juego.BuscarRespuesta(idPregunta, idRespuesta);
             return View("Respuesta");
         }
     }

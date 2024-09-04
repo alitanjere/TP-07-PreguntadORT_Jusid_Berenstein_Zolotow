@@ -9,19 +9,7 @@
     }
     Console.WriteLine("A ver: " + ViewBag.esCorrecta);
 }
-@if(mensaje == "CORRECTA"){
-    <div class="Respuesta">
-        <div class="Correcta">
-            <h1>@mensaje</h1>
-            <a href='@Url.Action("Jugar")'class="btn btn-dark">VOLVER A JUGAR</a>
-        </div>
-    </div>
-}
-else{
-    <div class="Respuesta">
-        <div class="Incorrecta">
-            <h1>@mensaje</h1>
-            <a href='@Url.Action("Jugar")'class="btn btn-dark">VOLVER A JUGAR</a>
-        </div>
-    </div>
-}
+<h1>@mensaje</h1>
+<a href='@Url.Action("Jugar")'class="btn btn-dark">JUGAR</a>
+
+</div>
