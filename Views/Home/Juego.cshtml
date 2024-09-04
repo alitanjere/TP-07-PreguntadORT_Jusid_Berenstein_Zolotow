@@ -1,7 +1,5 @@
 @{
     ViewData["Title"] = "Juego";
-    var pregunta = ViewBag.PregJugar as Pregunta;
-    var respuestas = ViewBag.RespuestaJugar as List<Respuesta>;
 }
 
 <!DOCTYPE html>
@@ -11,83 +9,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="~/css/site.css" />
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            padding: 20px;
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            font-size: 2em;
-            color: #007bff;
-        }
-        .question {
-            margin-bottom: 20px;
-        }
-        .question img {
-            max-width: 100%;
-            border-radius: 4px;
-        }
-        .answers {
-            list-style: none;
-            padding: 0;
-        }
-        .answers li {
-            margin-bottom: 10px;
-        }
-        .answers input[type="radio"] {
-            margin-right: 10px;
-        }
-        .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            font-size: 1em;
-            color: #fff;
-            background-color: #007bff;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            text-align: center;
-            text-decoration: none;
-        }
-        .btn:hover {
-            background-color: #0056b3;
-        }
-    </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Juego</h1>
-        <div class="question">
-            <p>@pregunta?.Enunciado</p>
-            @if (!string.IsNullOrEmpty(pregunta?.Foto))
-            {
-                <img src="@pregunta.Foto" alt="Pregunta" />
-            }
+    <div class="card text-bg-dark">
+    <img src="~/images/ciencia.png" class="card-img" alt="...">
+    <!--<img src="~/images/ViewBag.Categorias[ViewBag.PregJugar.IdCategoria].Foto" class="card-img" alt="...">-->
+    <div class="card-img-overlay">
+    <div class="info">
+        <div class= "datos">
+            <h3>@Juego.username -</h3>
+            <h5>Puntos: @Juego.puntajeActual</h5>
         </div>
-        <form asp-action="VerificarRespuesta" method="post">
-            @foreach (var respuesta in respuestas)
-            {
-                <div class="answers">
-                    <label>
-                        <input type="radio" name="idRespuesta" value="@respuesta.IdRespuesta" />
-                        @respuesta.Contenido
-                    </label>
-                </div>
+        <div class="container">
+        <div class= "Pregunta">
+            <h6>Pregunta n°@ViewBag.PregJugar.IdPregunta</h6>
+            <h2>@ViewBag.PregJugar.Enunciado</h2>
+        </div></div>
+        <div class="container">
+        <form method="post" action='@Url.Action("VerificarRespuesta")' class="opciones">
+            @foreach(Respuesta rep in Juego.ObtenerProximasRespuestas(@ViewBag.PregJugar.IdPregunta)){
+                <div class = "option">
+                <input value="@rep.IdRespuesta" type="radio" name="flexRadioDefault">
+                <label for="flexRadioDefault1">@rep.Contenido </label></div>
+            
             }
-            <input type="hidden" name="idPregunta" value="@pregunta.IdPregunta" />
-            <button type="submit" class="btn">Enviar Respuesta</button>
+        <input class="btn btn-dark" type="submit">
         </form>
+        </div>
+    </div>
+    </div>
     </div>
 </body>
 </html>

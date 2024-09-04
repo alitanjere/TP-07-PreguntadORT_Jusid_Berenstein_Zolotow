@@ -1,0 +1,16 @@
+<div class="Respuesta">
+@{
+    string mensaje="";//, aclaracion="";
+    if(ViewBag.esCorrecta == true){
+        mensaje="CORRECTA";
+    }
+    else{
+        mensaje="INCORRECTA";
+        //aclaracion = $"Respuesta Correcta {Juego.ListRespuestas[ViewBag.PregJugar.IdRespuesta]}!";
+    }
+    Console.WriteLine("A ver: " + ViewBag.esCorrecta);
+}
+<h1>@mensaje</h1>
+<a href='@Url.Action("Jugar")'class="btn btn-dark">JUGAR</a>
+
+</div>

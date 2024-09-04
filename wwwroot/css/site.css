@@ -95,13 +95,38 @@ footer{
   justify-content: center;
   align-items: center;
   padding: 1%;
+
 }
 
+
+/*Inicio ConfigurarJuego*/
+.Configurar{
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/fondoConfigurar.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+  width: 100%;
+}
 form{
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
-  padding: 8%;
+  width: 40%;
+  background-color: #ffffffb4;
+  border: none;
+  border-radius: 15px;
+}
+
+form h1{
+  font-weight: 900;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+
 }
 
 form div{
@@ -113,6 +138,7 @@ form div{
 
 form div label{
   margin: 1%;
+  margin-right: 6%;
   font-size: 2em;}
 
 form div input{
@@ -121,16 +147,109 @@ form div input{
   width: 20%;
   height: 38px;
 }
-form .btns{
-  width: 30%;
-  margin-top: 3%;
-}
-form .btns input{
-  margin-right: 3%;
-  background-color: #202020;
-  color: aliceblue;
-}
-form .btns input:hover{
-  background-color: #202020b4;
+
+form img{
+  width: 10%;
+  margin-left: 85%;
+  padding: 2%;
+  padding-top: 5%;
 
 }
+form .btn-group{
+  border-radius: 15px;
+}
+form .btn-group button{
+  background-color: rgb(240, 86, 240);
+  color: white;
+
+}
+form .btn-group button:hover{
+  background-color: rgb(212, 70, 212);  
+  font-weight: 500;
+  color: white;
+
+}
+
+form .btn-group button:first-child{
+  background-color: rgb(172, 19, 172);
+  font-weight: 400;
+}
+form .btn-group button:first-child:hover{
+  background-color:rgb(146, 15, 146) ;
+  font-weight: 500;
+}
+/*Fin ConfigurarJuego*/
+/*Inicio Juego*/
+
+.card-img-overlay{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info{
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  height: 600px;
+}
+.datos{
+  display: flex;
+  align-items: center;
+  width: 40%;
+  margin-bottom: 3%;
+}
+.datos h3{
+  margin-right: 1%;
+  font-weight: 900;
+}
+.datos h5{
+  font-weight: 600;
+  margin-top: 1%;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+.Pregunta{
+  padding-bottom: 5%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding: 3%;
+  width: 50%;
+  border-radius: 15px;
+  border: 1px solid gray;
+  -webkit-box-shadow: -1px 1px 33px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 1px 33px 0px rgba(0,0,0,0.75);
+box-shadow: -1px 1px 33px 0px rgba(0,0,0,0.75);
+}
+.Pregunta h2{
+  color: rgb(56, 56, 56);
+  padding-left: 5%;
+  text-align: center;
+}
+.Pregunta h6{
+  margin-bottom: 4%;
+}
+.opciones {
+  display: flex;
+  margin: 5%;
+  background-color: rgba(0, 0, 0, 0);
+}
+.opciones .option{
+  background-color: white;
+  padding: 1%;
+  border-radius: 15px;
+  margin: 1%;
+  font-weight: 300;
+  border: 1px solid gray;
+
+}
+.opciones .option label{
+  font-size: 1.2em;
+}
+.opciones .option input{
+  width: 5%;
+  margin-left: 4%;
+  margin-right: 2%;
+}
+/*Fin Juego*/

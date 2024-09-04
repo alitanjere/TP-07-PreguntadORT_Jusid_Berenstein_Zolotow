@@ -505,31 +505,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\94643227\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\ricky\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\94643227\\Desktop\\Nueva carpeta\\PreguntadORT.csproj",
+      "projectUniqueName": "C:\\ORT 2024\\INFO\\PROGRAMACION\\3° Bimestre\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\PreguntadORT.csproj",
       "projectName": "PreguntadORT",
-      "projectPath": "C:\\Users\\94643227\\Desktop\\Nueva carpeta\\PreguntadORT.csproj",
-      "packagesPath": "C:\\Users\\94643227\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\94643227\\Desktop\\Nueva carpeta\\obj\\",
+      "projectPath": "C:\\ORT 2024\\INFO\\PROGRAMACION\\3° Bimestre\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\PreguntadORT.csproj",
+      "packagesPath": "C:\\Users\\ricky\\.nuget\\packages\\",
+      "outputPath": "C:\\ORT 2024\\INFO\\PROGRAMACION\\3° Bimestre\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\94643227\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\ricky\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -581,7 +574,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

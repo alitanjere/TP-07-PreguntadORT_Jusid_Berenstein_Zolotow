@@ -1,10 +1,10 @@
 public class Juego
 {
-    private static string username;
-    private static int puntajeActual;
+    public static string username;
+    public static int puntajeActual;
     private static int cantidadPreguntasCorrectas;
     private static List<Pregunta> ListPreguntas = new List<Pregunta>();
-    private static List<Respuesta> ListRespuestas = new List<Respuesta>();
+    public  static List<Respuesta> ListRespuestas = new List<Respuesta>();
 
     public static void InicializarJuego()
     {
@@ -22,9 +22,9 @@ public class Juego
         return BD.ObtenerDificultades();
     }
 
-    public static void CargarPartida(string username, int dificultad, int categoria)
+    public static void CargarPartida(string Username, int dificultad, int categoria)
     {
-        username = username;
+        username = Username;
         ListPreguntas = BD.ObtenerPreguntas(dificultad, categoria);
         ListRespuestas = BD.ObtenerRespuestas(ListPreguntas);
 

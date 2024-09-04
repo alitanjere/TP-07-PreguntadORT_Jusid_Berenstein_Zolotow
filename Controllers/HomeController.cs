@@ -42,7 +42,7 @@ namespace PreguntadORT.Controllers
 
         public IActionResult Jugar()
         {
-            var pregunta = Juego.ObtenerProximaPregunta();
+        Pregunta pregunta = Juego.ObtenerProximaPregunta();
             if (pregunta == null)
             {
                 Console.WriteLine("No se pudo obtener una pregunta.");

@@ -1,10 +1,10 @@
 ﻿@{
     ViewData["Title"] = "Configurar Juego";
 }
-
-<h1>Configurar Juego</h1>
-
+<div class="Configurar">
 <form asp-action="Comenzar" method="post">
+    <a href='@Url.Action("Index")' class="close-button"><img src="~/images/cruz.webp" alt=""></a>
+    <h1>CONFIGURACIÓN</h1>
     <div class="form-group">
         <label for="username">Nombre </label>
         <input type="text" id="username" name="username" class="form-control" required />
@@ -12,7 +12,8 @@
     <div class="form-group">
         <label for="dificultad">Dificultad </label>
         <select id="dificultad" name="dificultad" class="form-control" required>
-            @foreach (var dificultad in ViewBag.ListaDificultades)
+            <option value="-1">Todas</option>
+            @foreach (Dificultades dificultad in ViewBag.ListaDificultades)
             {
                 <option value="@dificultad.IdDificultad">@dificultad.Nombre</option>
             }
@@ -21,11 +22,17 @@
     <div class="form-group">
         <label for="categoria">Categoría </label>
         <select id="categoria" name="categoria" class="form-control" required>
-            @foreach (var categoria in ViewBag.Categorias)
+            <option value="-1">Todas</option>
+            @foreach (Categorias categoria in ViewBag.Categorias)
             {
                 <option value="@categoria.IdCategoria">@categoria.Nombre</option>
             }
         </select>
     </div>
-    <button type="submit" class="btn btn-primary">Enviar</button>
+    <div class="btn-group">
+    <button type="submit" class="btn">Enviar</button>
+    <button type="reset" class="btn">Restablecer</button>
+</div>
+
 </form>
+</div>

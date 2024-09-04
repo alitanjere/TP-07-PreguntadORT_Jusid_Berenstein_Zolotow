@@ -312,3 +312,41 @@ C:\Users\94643227\Desktop\Nueva carpeta\obj\Debug\net8.0\refint\PreguntadORT.dll
 C:\Users\94643227\Desktop\Nueva carpeta\obj\Debug\net8.0\PreguntadORT.pdb
 C:\Users\94643227\Desktop\Nueva carpeta\obj\Debug\net8.0\PreguntadORT.genruntimeconfig.cache
 C:\Users\94643227\Desktop\Nueva carpeta\obj\Debug\net8.0\ref\PreguntadORT.dll
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\bin\Debug\net8.0\appsettings.Development.json
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\bin\Debug\net8.0\appsettings.json
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\bin\Debug\net8.0\PreguntadORT.staticwebassets.runtime.json
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\bin\Debug\net8.0\PreguntadORT.exe
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\bin\Debug\net8.0\PreguntadORT.deps.json
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\bin\Debug\net8.0\PreguntadORT.runtimeconfig.json
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\bin\Debug\net8.0\PreguntadORT.dll
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\bin\Debug\net8.0\PreguntadORT.pdb
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\bin\Debug\net8.0\Dapper.dll
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\obj\Debug\net8.0\PreguntadORT.csproj.AssemblyReference.cache
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\obj\Debug\net8.0\PreguntadORT.GeneratedMSBuildEditorConfig.editorconfig
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\obj\Debug\net8.0\PreguntadORT.AssemblyInfoInputs.cache
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\obj\Debug\net8.0\PreguntadORT.AssemblyInfo.cs
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\obj\Debug\net8.0\PreguntadORT.csproj.CoreCompileInputs.cache
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\obj\Debug\net8.0\PreguntadORT.MvcApplicationPartsAssemblyInfo.cache
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\obj\Debug\net8.0\PreguntadORT.RazorAssemblyInfo.cache
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\obj\Debug\net8.0\PreguntadORT.RazorAssemblyInfo.cs
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\obj\Debug\net8.0\PreguntadORT.sourcelink.json
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\obj\Debug\net8.0\staticwebassets.build.json
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\obj\Debug\net8.0\staticwebassets.development.json
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\obj\Debug\net8.0\staticwebassets\msbuild.PreguntadORT.Microsoft.AspNetCore.StaticWebAssets.props
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\obj\Debug\net8.0\staticwebassets\msbuild.build.PreguntadORT.props
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PreguntadORT.props
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PreguntadORT.props
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\obj\Debug\net8.0\staticwebassets.pack.json
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\obj\Debug\net8.0\scopedcss\bundle\PreguntadORT.styles.css
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\obj\Debug\net8.0\Pregunta.496DBD53.Up2Date
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\obj\Debug\net8.0\PreguntadORT.dll
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\obj\Debug\net8.0\refint\PreguntadORT.dll
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\obj\Debug\net8.0\PreguntadORT.pdb
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\obj\Debug\net8.0\PreguntadORT.genruntimeconfig.cache
+C:\ORT 2024\INFO\PROGRAMACION\3° Bimestre\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\obj\Debug\net8.0\ref\PreguntadORT.dll
