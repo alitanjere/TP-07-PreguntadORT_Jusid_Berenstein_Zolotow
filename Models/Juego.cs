@@ -48,16 +48,18 @@ public class Juego
         return respuestas;
     }
 
-    public static bool VerificarRespuesta(int idPregunta, int idRespuesta){
-        bool esCorrecta= false;
-        Respuesta rep = ListRespuestas[idRespuesta];
-        if(idRespuesta == rep.IdRespuesta){
-            esCorrecta = true;
-            cantidadPreguntasCorrectas++;
-            puntajeActual+= 10;
-            ListPreguntas.RemoveAt(idPregunta);
-        }
-        return esCorrecta;
+    public static bool VerificarRespuesta(int idPregunta, int idRespuesta) {
+    Respuesta respuestaSeleccionada = ListRespuestas.FirstOrDefault(r => r.IdRespuesta == idRespuesta);
+    
+    if (respuestaSeleccionada != null && respuestaSeleccionada.Correcta) {
+        cantidadPreguntasCorrectas++;
+        puntajeActual += 10;
+        ListPreguntas.RemoveAll(p => p.IdPregunta == idPregunta); // Remueve la pregunta después de responderla
+        return true;
     }
+
+    return false;
+}
+
 
 }
