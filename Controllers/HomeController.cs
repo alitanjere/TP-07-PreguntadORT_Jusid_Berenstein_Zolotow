@@ -41,18 +41,36 @@ namespace PreguntadORT.Controllers
         }
 
         public IActionResult Jugar()
-        {
-        Pregunta pregunta = Juego.ObtenerProximaPregunta();
-            if (pregunta == null)
-            {
-                Console.WriteLine("No se pudo obtener una pregunta.");
-                return View("Fin");
-            }
+{
+    Pregunta pregunta = Juego.ObtenerProximaPregunta();
+    if (pregunta == null)
+    {
+        Console.WriteLine("No se pudo obtener una pregunta.");
+        return View("Fin");
+    }
 
-            ViewBag.PregJugar = pregunta;
-            ViewBag.RespuestaJugar = Juego.ObtenerProximasRespuestas(pregunta.IdPregunta);
-            return View("Juego");
-        }
+    ViewBag.PregJugar = pregunta;
+    ViewBag.RespuestaJugar = Juego.ObtenerProximasRespuestas(pregunta.IdPregunta);
+
+    ViewBag.CategoriaImagen = ObtenerNombreImagenCategoria(pregunta.IdCategoria);
+
+    return View("Juego");
+}
+
+private string ObtenerNombreImagenCategoria(int idCategoria)
+{
+    switch(idCategoria)
+    {
+        case 1: return "Historia.png";
+        case 2: return "Ciencia.png";
+        case 3: return "Geografia.png";
+        case 4: return "Arte.png";
+        case 5: return "Deportes.png";
+        default: return "default.png"; 
+    }
+}
+
+
 
         [HttpPost]
         public IActionResult VerificarRespuesta(int idPregunta, int idRespuesta)
