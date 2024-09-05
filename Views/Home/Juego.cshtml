@@ -29,11 +29,10 @@
                     <form method="post" action='@Url.Action("VerificarRespuesta")' class="opciones">
                         @foreach (Respuesta rep in Juego.ObtenerProximasRespuestas(@ViewBag.PregJugar.IdPregunta)) {
                             <div class="option">
-                                <input type="radio" name="idRespuesta" value="@rep.IdRespuesta" required>
+                                <button type="submit" name="idRespuesta" value="@rep.IdRespuesta" required>
                                 <label for="flexRadioDefault1">@rep.Contenido</label>
                             </div>
                         }
-                        <input class="btn btn-dark" type="submit" value="Responder">
                     </form>
                 </div>
             </div>

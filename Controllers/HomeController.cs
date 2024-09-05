@@ -18,8 +18,6 @@ namespace PreguntadORT.Controllers
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-       
-
         public IActionResult ConfigurarJuego()
         {
             Juego.InicializarJuego();
@@ -32,7 +30,7 @@ namespace PreguntadORT.Controllers
         {
             Juego.CargarPartida(username, dificultad, categoria);
 
-            if (BD.ObtenerPreguntas(dificultad, categoria).Count == 0)
+            if (Juego.ObtenerProximaPregunta() == null)
             {
                 return RedirectToAction("ConfigurarJuego");
             }
@@ -41,41 +39,49 @@ namespace PreguntadORT.Controllers
         }
 
         public IActionResult Jugar()
-{
-    Pregunta pregunta = Juego.ObtenerProximaPregunta();
-    if (pregunta == null)
-    {
-        Console.WriteLine("No se pudo obtener una pregunta.");
-        return View("Fin");
-    }
+        {
+            Pregunta pregunta = Juego.ObtenerProximaPregunta();
+            if (pregunta == null)
+            {
+                return RedirectToAction("Fin");
+            }
 
-    ViewBag.PregJugar = pregunta;
-    ViewBag.RespuestaJugar = Juego.ObtenerProximasRespuestas(pregunta.IdPregunta);
+            ViewBag.PregJugar = pregunta;
+            ViewBag.RespuestaJugar = Juego.ObtenerProximasRespuestas(pregunta.IdPregunta);
+            ViewBag.CategoriaImagen = ObtenerNombreImagenCategoria(pregunta.IdCategoria);
 
-    ViewBag.CategoriaImagen = ObtenerNombreImagenCategoria(pregunta.IdCategoria);
+            return View("Juego");
+        }
 
-    return View("Juego");
-}
-
-private string ObtenerNombreImagenCategoria(int idCategoria)
-{
-    switch(idCategoria)
-    {
-        case 1: return "Historia.png";
-        case 2: return "Ciencia.png";
-        case 3: return "Geografia.png";
-        case 4: return "Arte.png";
-        case 5: return "Deportes.png";
-        default: return "default.png"; 
-    }
-}
-
-
+        private string ObtenerNombreImagenCategoria(int idCategoria)
+        {
+            switch(idCategoria)
+            {
+                case 1: return "Historia.png";
+                case 2: return "Ciencia.png";
+                case 3: return "Geografia.png";
+                case 4: return "Arte.png";
+                case 5: return "Deportes.png";
+                default: return "default.png"; 
+            }
+        }
 
         [HttpPost]
         public IActionResult VerificarRespuesta(int idPregunta, int idRespuesta)
         {
-            ViewBag.esCorrecta = Juego.BuscarRespuesta(idPregunta, idRespuesta);
+            bool esCorrecta = Juego.VerificarRespuesta(idPregunta, idRespuesta);
+
+            Pregunta pregunta = Juego.ObtenerProximaPregunta();
+            if (pregunta == null)
+            {
+                return RedirectToAction("Fin");
+            }
+
+            ViewBag.PregJugar = pregunta;
+            ViewBag.RespuestaJugar = Juego.ObtenerProximasRespuestas(pregunta.IdPregunta);
+            ViewBag.CategoriaImagen = ObtenerNombreImagenCategoria(pregunta.IdCategoria);
+            ViewBag.EsCorrecta = esCorrecta;
+
             return View("Respuesta");
         }
     }

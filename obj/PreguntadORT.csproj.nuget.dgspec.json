@@ -1,10 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 329ec6b5f0ccb17286d5dd4620fdcb27660a3558
     "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\PreguntadORT.csproj": {}
   },
   "projects": {
@@ -16,36 +12,12 @@
         "projectPath": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\PreguntadORT.csproj",
         "packagesPath": "C:\\Users\\94643227\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\obj\\",
-<<<<<<< HEAD
-=======
-=======
-    "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\PreguntadORT.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\PreguntadORT.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\PreguntadORT.csproj",
-        "projectName": "PreguntadORT",
-        "projectPath": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\PreguntadORT.csproj",
-        "packagesPath": "C:\\Users\\48042387\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\48042387\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\obj\\",
->>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
->>>>>>> 329ec6b5f0ccb17286d5dd4620fdcb27660a3558
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\94643227\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-<<<<<<< HEAD
-          "C:\\Users\\94643227\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\48042387\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> aa6a858c7aca446be560ce7e41a23c552a94f7e2
->>>>>>> 329ec6b5f0ccb17286d5dd4620fdcb27660a3558
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -105,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
