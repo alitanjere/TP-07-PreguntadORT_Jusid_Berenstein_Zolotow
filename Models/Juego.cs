@@ -54,7 +54,7 @@ public class Juego
     if (respuestaSeleccionada != null && respuestaSeleccionada.Correcta) {
         cantidadPreguntasCorrectas++;
         puntajeActual += 10;
-        ListPreguntas.RemoveAll(p => p.IdPregunta == idPregunta); // Remueve la pregunta después de responderla
+        ListPreguntas.RemoveAll(p => p.IdPregunta == idPregunta); 
         return true;
     }
 
