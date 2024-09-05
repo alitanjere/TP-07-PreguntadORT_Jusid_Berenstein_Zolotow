@@ -4,7 +4,7 @@ public class Juego
     public static int puntajeActual;
     private static int cantidadPreguntasCorrectas;
     private static List<Pregunta> ListPreguntas = new List<Pregunta>();
-    public  static List<Respuesta> ListRespuestas = new List<Respuesta>();
+    public static List<Respuesta> ListRespuestas = new List<Respuesta>();
 
     public static void InicializarJuego()
     {
@@ -37,11 +37,13 @@ public class Juego
         return ListPreguntas[numRand];
     }
 
-    public static List <Respuesta> ObtenerProximasRespuestas(int idPregunta)
+    public static List<Respuesta> ObtenerProximasRespuestas(int idPregunta)
     {
         List<Respuesta> respuestas = new List<Respuesta>();
-        foreach(Respuesta rep in ListRespuestas){
-            if (rep.IdPregunta == idPregunta){
+        foreach (Respuesta rep in ListRespuestas)
+        {
+            if (rep.IdPregunta == idPregunta)
+            {
                 respuestas.Add(rep);
             }
         }
@@ -50,15 +52,27 @@ public class Juego
 
     public static bool VerificarRespuesta(int idPregunta, int idRespuesta) {
     Respuesta respuestaSeleccionada = ListRespuestas.FirstOrDefault(r => r.IdRespuesta == idRespuesta);
+<<<<<<< HEAD
 
     if (respuestaSeleccionada != null && respuestaSeleccionada.Correcta) {
         cantidadPreguntasCorrectas++;
         puntajeActual += 10;
         ListPreguntas.RemoveAll(p => p.IdPregunta == idPregunta); 
+=======
+    
+    if (respuestaSeleccionada != null && respuestaSeleccionada.Correcta) {
+        cantidadPreguntasCorrectas++;
+        puntajeActual += 10;
+        ListPreguntas.RemoveAll(p => p.IdPregunta == idPregunta); // Remueve la pregunta después de responderla
+>>>>>>> 329ec6b5f0ccb17286d5dd4620fdcb27660a3558
         return true;
     }
 
     return false;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 329ec6b5f0ccb17286d5dd4620fdcb27660a3558
 }

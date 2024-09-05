@@ -19327,57 +19327,6 @@
     "CSharpLanguageVersion": 1100
   },
   "RootNamespace": "PreguntadORT",
-  "Documents": [
-    {
-      "FilePath": "c:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\Views\\Home\\Respuesta.cshtml",
-      "TargetPath": "Views\\Home\\Respuesta.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\Views\\Home\\ConfigurarJuego.cshtml",
-      "TargetPath": "Views\\Home\\ConfigurarJuego.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\Views\\Home\\Juego.cshtml",
-      "TargetPath": "Views\\Home\\Juego.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\Views\\Home\\Fin.cshtml",
-      "TargetPath": "Views\\Home\\Fin.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    }
-  ],
+  "Documents": [],
   "SerializationFormat": "0.3"
 }
