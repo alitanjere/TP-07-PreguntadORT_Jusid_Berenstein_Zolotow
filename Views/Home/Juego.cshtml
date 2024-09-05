@@ -12,31 +12,32 @@
 </head>
 <body>
     <div class="card text-bg-dark">
-<img src="~/images/@ViewBag.CategoriaImagen" class="card-img" alt="Categoría">
-    <div class="card-img-overlay">
-    <div class="info">
-        <div class= "datos">
-            <h3>@Juego.username -</h3>
-            <h5>Puntos: @Juego.puntajeActual</h5>
+        <img src="~/images/@ViewBag.CategoriaImagen" class="card-img" alt="Categoría">
+        <div class="card-img-overlay">
+            <div class="info">
+                <div class="datos">
+                    <h3>@Juego.username -</h3>
+                    <h5>Puntos: @Juego.puntajeActual</h5>
+                </div>
+                <div class="container">
+                    <div class="Pregunta">
+                        <h6>Pregunta n°@ViewBag.PregJugar.IdPregunta</h6>
+                        <h2>@ViewBag.PregJugar.Enunciado</h2>
+                    </div>
+                </div>
+                <div class="container">
+                    <form method="post" action='@Url.Action("VerificarRespuesta")' class="opciones">
+                        @foreach (Respuesta rep in Juego.ObtenerProximasRespuestas(@ViewBag.PregJugar.IdPregunta)) {
+                            <div class="option">
+                                <input type="radio" name="idRespuesta" value="@rep.IdRespuesta" required>
+                                <label for="flexRadioDefault1">@rep.Contenido</label>
+                            </div>
+                        }
+                        <input class="btn btn-dark" type="submit" value="Responder">
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="container">
-        <div class= "Pregunta">
-            <h6>Pregunta n°@ViewBag.PregJugar.IdPregunta</h6>
-            <h2>@ViewBag.PregJugar.Enunciado</h2>
-        </div></div>
-        <div class="container">
-        <form method="post" action='@Url.Action("VerificarRespuesta")' class="opciones">
-            @foreach(Respuesta rep in Juego.ObtenerProximasRespuestas(@ViewBag.PregJugar.IdPregunta)){
-                <div class = "option">
-                <input value="@rep.IdRespuesta" type="radio" name="flexRadioDefault">
-                <label for="flexRadioDefault1">@rep.Contenido </label></div>
-            
-            }
-        <input class="btn btn-dark" type="submit">
-        </form>
-        </div>
-    </div>
-    </div>
     </div>
 </body>
 </html>
