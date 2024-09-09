@@ -49,9 +49,13 @@ public class Juego
 
 
     public static List<Respuesta> ObtenerProximasRespuestas(int idPregunta)
-    {
-        return ListRespuestas.Where(rep => rep.IdPregunta == idPregunta).ToList();
-    }
+{
+    var respuestas = ListRespuestas.Where(rep => rep.IdPregunta == idPregunta).ToList();
+    // Aleatorizar las respuestas
+    Random random = new Random();
+    return respuestas.OrderBy(x => random.Next()).ToList();
+}
+
 
     public static bool VerificarRespuesta(int idPregunta, int idRespuesta)
 {
