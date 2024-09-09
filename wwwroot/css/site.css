@@ -79,6 +79,17 @@ button {
   align-items: center;
   font-size: 2em;
   margin-top: 35%;
+  cursor: pointer;
+    animation: agrandarAchicar 2s infinite ease-in-out;
+}
+
+@keyframes agrandarAchicar {
+    0%, 100% {
+        transform: scale(1.3);
+    }
+    50% {
+        transform: scale(1.5);
+    }
 }
 
 .Index a:hover {
@@ -144,9 +155,9 @@ form div input {
 }
 
 form img {
-  width: 10%;
-  margin-left: 85%;
-  padding: 5%;
+  width: 11%;
+  margin-left: 88%;
+  padding: 2%;
 }
 
 form .btn-group {
@@ -293,6 +304,8 @@ form .btn-group button:first-child:hover {
     font-size: 2em;
     background-color: #007e1b;
     border: none;
+    animation: agrandarAchicar 2s infinite ease-in-out;
+
   }
 }
 
@@ -327,4 +340,57 @@ form .btn-group button:first-child:hover {
   font-size: 2em;
   background-color: #a02d04;
   border: none;
+  animation: agrandarAchicar 2s infinite ease-in-out;
+
 }
+/*Inicio Fin */
+.Fin{
+  width: 100%;
+  height: 600px;
+  background-image: url(../images/Fin.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /*box-shadow: inset 0px 0px 178px 66px rgba(199,2,199,1);*/
+}
+.Fin p{
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.Fin h1{
+  font-weight: 900;
+  font-size: 4em;
+  padding-top: 2%;
+  color: aliceblue;
+}
+.Fin button{  
+  margin-left: 2%;
+  background-color: rgb(101, 30, 167);
+  border: white;
+
+}
+.Fin button:hover{  
+  background-color: rgb(69, 21, 114);
+
+}
+.Fin button a{
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: bold;
+}
+.Fin .btn-group{
+  width: 30%;
+  background-color: blueviolet;
+  border-radius: 25px;
+  button{
+    border-radius: 25px;
+  }
+}
+.Fin .btn-group h3{
+  padding-right: 2%;
+  padding: 3.5%;
+  font-size: 1.5em;
+}
+/*Fin Fin */

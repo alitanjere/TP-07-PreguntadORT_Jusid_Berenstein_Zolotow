@@ -25,3 +25,25 @@ else{
         </div>
     </div>
 }
+<audio id="sonidoVictoria" src="~/sounds/victoria.mp3"></audio>
+<audio id="sonidoDerrota" src="~/sounds/derrota.mp3"></audio>
+
+<script>
+   document.addEventListener("DOMContentLoaded", function() {
+        var mensaje = "@mensaje";
+        
+        // Verificar si el audio está listo
+        var victoria = document.getElementById("sonidoVictoria");
+        var derrota = document.getElementById("sonidoDerrota");
+
+        if (mensaje === "CORRECTA") {
+            victoria.play().catch(function(error) {
+                console.log("Error al reproducir victoria:", error);
+            });
+        } else if (mensaje === "INCORRECTA") {
+            derrota.play().catch(function(error) {
+                console.log("Error al reproducir derrota:", error);
+            });
+        }
+    });
+</script>

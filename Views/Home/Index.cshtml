@@ -4,3 +4,15 @@
 <div class= "Index">
     <a href='@Url.Action("ConfigurarJuego")'>COMENZAR</a>
 </div>
+<audio id="sonidoBienvenida" src="~/sounds/bienvenida.mp3"></audio>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var sonido = document.getElementById("sonidoBienvenida");
+
+        // Intenta reproducir el sonido al cargar la página
+        sonido.play().catch(function(error) {
+            console.log("Error al intentar reproducir el sonido:", error);
+        });
+    });
+</script>
