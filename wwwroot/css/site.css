@@ -304,6 +304,7 @@ form .btn-group button:first-child:hover {
     font-size: 2em;
     background-color: #007e1b;
     border: none;
+    margin: 2%;
     animation: agrandarAchicar 2s infinite ease-in-out;
 
   }
@@ -346,8 +347,8 @@ form .btn-group button:first-child:hover {
 /*Inicio Fin */
 .Fin{
   width: 100%;
-  height: 600px;
-  background-image: url(../images/Fin.webp);
+  height: 900px;
+  background-image: url(../images/FIn.webp);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;

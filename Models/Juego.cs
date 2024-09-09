@@ -3,7 +3,7 @@ public class Juego
     public static string username;
     public static int puntajeActual;
     private static int cantidadPreguntasCorrectas;
-    private static List<Pregunta> ListPreguntas = new List<Pregunta>();
+    public static List<Pregunta> ListPreguntas = new List<Pregunta>();
     public static List<Respuesta> ListRespuestas = new List<Respuesta>();
 
     public static void InicializarJuego()
@@ -30,15 +30,23 @@ public class Juego
         ListRespuestas = BD.ObtenerRespuestas(ListPreguntas);
     }
 
-    public static Pregunta ObtenerProximaPregunta()
-    {
-        if (ListPreguntas.Count == 0)
-            return null;
+  public static Pregunta ObtenerProximaPregunta()
+{
+    if (ListPreguntas.Count == 0)
+        return null; 
 
-        Random NumRand = new Random();
-        int numRand = NumRand.Next(0, ListPreguntas.Count);
-        return ListPreguntas[numRand];
-    }
+    Random NumRand = new Random();
+    int numRand = NumRand.Next(0, ListPreguntas.Count);
+
+    Pregunta preguntaSeleccionada = ListPreguntas[numRand];
+
+    ListPreguntas.RemoveAt(numRand);
+
+    return preguntaSeleccionada;
+}
+
+
+
 
     public static List<Respuesta> ObtenerProximasRespuestas(int idPregunta)
     {
@@ -46,19 +54,20 @@ public class Juego
     }
 
     public static bool VerificarRespuesta(int idPregunta, int idRespuesta)
+{
+    Respuesta respuestaSeleccionada = ListRespuestas.FirstOrDefault(r => r.IdRespuesta == idRespuesta);
+
+    if (respuestaSeleccionada != null && respuestaSeleccionada.Correcta)
     {
-        Respuesta respuestaSeleccionada = ListRespuestas.FirstOrDefault(r => r.IdRespuesta == idRespuesta);
-
-        if (respuestaSeleccionada != null && respuestaSeleccionada.Correcta)
-        {
-            cantidadPreguntasCorrectas++;
-            puntajeActual += 10;
-            ListPreguntas.RemoveAll(p => p.IdPregunta == idPregunta);
-            return true;
-        }
-
-        return false;
+        cantidadPreguntasCorrectas++;
+        puntajeActual += 10;
+        return true;
     }
+
+    return false;
+}
+
+
 
     public static Respuesta BuscarRespuesta(int idRespuesta)
     {

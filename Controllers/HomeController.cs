@@ -30,7 +30,7 @@ namespace PreguntadORT.Controllers
         {
             Juego.CargarPartida(username, dificultad, categoria);
 
-            if (Juego.ObtenerProximaPregunta() == null)
+            if (Juego.ListPreguntas.Count() <= 0)
             {
                 return RedirectToAction("ConfigurarJuego");
             }
@@ -39,19 +39,23 @@ namespace PreguntadORT.Controllers
         }
 
         public IActionResult Jugar()
-        {
-            Pregunta pregunta = Juego.ObtenerProximaPregunta();
-            if (pregunta == null)
-            {
-                return RedirectToAction("Fin");
-            }
+{
+    Pregunta pregunta = Juego.ObtenerProximaPregunta();
 
-            ViewBag.PregJugar = pregunta;
-            ViewBag.RespuestaJugar = Juego.ObtenerProximasRespuestas(pregunta.IdPregunta);
-            ViewBag.CategoriaImagen = ObtenerNombreImagenCategoria(pregunta.IdCategoria);
+    // Si ya no hay más preguntas, redirige al Fin
+    if (pregunta == null)
+    {
+        return RedirectToAction("Fin");
+    }
 
-            return View("Juego");
-        }
+    // Si hay una pregunta, la mostramos en la vista
+    ViewBag.PregJugar = pregunta;
+    ViewBag.RespuestaJugar = Juego.ObtenerProximasRespuestas(pregunta.IdPregunta);
+    ViewBag.CategoriaImagen = ObtenerNombreImagenCategoria(pregunta.IdCategoria);
+
+    return View("Juego");
+}
+
 
         private string ObtenerNombreImagenCategoria(int idCategoria)
         {
@@ -71,18 +75,15 @@ namespace PreguntadORT.Controllers
         {
             bool esCorrecta = Juego.VerificarRespuesta(idPregunta, idRespuesta);
 
-            Pregunta pregunta = Juego.ObtenerProximaPregunta();
-            if (pregunta == null)
-            {
-                return RedirectToAction("Fin");
-            }
 
-            ViewBag.PregJugar = pregunta;
-            ViewBag.RespuestaJugar = Juego.ObtenerProximasRespuestas(pregunta.IdPregunta);
-            ViewBag.CategoriaImagen = ObtenerNombreImagenCategoria(pregunta.IdCategoria);
             ViewBag.EsCorrecta = esCorrecta;
 
             return View("Respuesta");
         }
+
+        public IActionResult Fin(){
+            return View();
+        }
+
     }
 }
