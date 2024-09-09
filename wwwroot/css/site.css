@@ -91,6 +91,11 @@ button {
         transform: scale(1.5);
     }
 }
+@keyframes agrandar {
+  50% {
+      transform: scale(1.05);
+  }
+}
 
 .Index a:hover {
   background-color: rgb(141, 4, 141);
@@ -263,6 +268,12 @@ form .btn-group button:first-child:hover {
   border: 1px solid gray;
   box-shadow: -1px 1px 33px rgba(0, 0, 0, 0.418);
   font-size: 1.2em;
+}
+.row-cols-2 .col button:hover{
+  background-color: rgb(235, 235, 235);
+  animation: agrandar 1s infinite ease-in-out;
+
+
 }
 
 /* Respuesta */
