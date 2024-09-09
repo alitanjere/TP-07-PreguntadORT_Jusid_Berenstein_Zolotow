@@ -10,7 +10,7 @@
     <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
-<body>
+
     <div class="card text-bg-dark">
         <img src="~/images/@ViewBag.CategoriaImagen" class="card-img" alt="Categoría">
         <div class="card-img-overlay">
@@ -18,7 +18,10 @@
                 <div class="datos">
                     <h3>@Juego.username -</h3>
                     <h5>Puntos: @Juego.puntajeActual</h5>
+                    
+
                 </div>
+                <h4>Tiempo:  <span id="tiempo"></span></h4>
                 <div class="container">
                     <div class="Pregunta">
                         <h6>Pregunta n°@ViewBag.PregJugar.IdPregunta</h6>
@@ -40,5 +43,6 @@
             </div>
         </div>
     </div>
-</body>
 </html>
+
+<script src="~/js/Timer.js"></script>

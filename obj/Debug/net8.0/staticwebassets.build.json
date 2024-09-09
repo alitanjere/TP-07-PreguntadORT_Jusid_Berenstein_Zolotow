@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bK4w/iAz/2Hj6kK4yuMLHos55khPi8x/yZvt7ZYnJcw=",
+  "Hash": "n1EgI7VvmtWJc3eJ02qVfCKbu82BfvAutE1WSdlWfyA=",
   "Source": "PreguntadORT",
   "BasePath": "_content/PreguntadORT",
   "Mode": "Default",
@@ -300,6 +300,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\js\\Timer.js",
+      "SourceId": "PreguntadORT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\",
+      "BasePath": "_content/PreguntadORT",
+      "RelativePath": "js/Timer.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Timer.js"
     },
     {
       "Identity": "C:\\Users\\94643227\\Desktop\\TP-07-PreguntadORT_Jusid_Berenstein_Zolotow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",

@@ -203,6 +203,13 @@ form .btn-group button:first-child:hover {
   height: 600px;
 }
 
+.info h4{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1%;
+  font-weight: bold;
+}
+
 .datos {
   display: flex;
   align-items: center;
