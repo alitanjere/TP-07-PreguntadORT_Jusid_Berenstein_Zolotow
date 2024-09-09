@@ -26,13 +26,15 @@
                     </div>
                 </div>
                 <div class="container">
-                    <form method="post" action='@Url.Action("VerificarRespuesta")' class="opciones">
+                    <form method="post" action='@Url.Action("VerificarRespuesta")'>
+                    <div class="row row-cols-2">
                         @foreach (Respuesta rep in Juego.ObtenerProximasRespuestas(@ViewBag.PregJugar.IdPregunta)) {
-                            <div class="option">
+                            <div class="col">
                                 <button type="submit" name="idRespuesta" value="@rep.IdRespuesta" required>
                                 <label for="flexRadioDefault1">@rep.Contenido</label>
                             </div>
                         }
+                    </div>
                     </form>
                 </div>
             </div>
