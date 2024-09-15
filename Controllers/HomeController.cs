@@ -39,23 +39,36 @@ namespace PreguntadORT.Controllers
         }
 
         public IActionResult Jugar()
-{
-    Pregunta pregunta = Juego.ObtenerProximaPregunta();
+        {
+            Pregunta pregunta = Juego.ObtenerProximaPregunta();
 
     // Si ya no hay más preguntas, redirige al Fin
-    if (pregunta == null)
+            if (pregunta == null)
+            {
+                return RedirectToAction("Fin");
+            }
+
+            // Si hay una pregunta, la mostramos en la vista
+            ViewBag.PregJugar = pregunta;
+            ViewBag.RespuestaJugar = Juego.ObtenerProximasRespuestas(pregunta.IdPregunta);
+            TempData["RespCorrecta"] = BuscarRespuesta(ViewBag.RespuestaJugar).Contenido;
+            Console.WriteLine("RESP: " +  ViewBag.RespCorrecta);
+            ViewBag.CategoriaImagen = ObtenerNombreImagenCategoria(pregunta.IdCategoria);
+
+            return View("Juego");
+        }
+
+ private static Respuesta BuscarRespuesta(List<Respuesta> list)
     {
-        return RedirectToAction("Fin");
+        Respuesta correcta = null;
+        foreach(Respuesta rep in list){
+            
+            if(rep.Correcta == true){
+                correcta = rep;
+            }
+        }
+        return correcta;
     }
-
-    // Si hay una pregunta, la mostramos en la vista
-    ViewBag.PregJugar = pregunta;
-    ViewBag.RespuestaJugar = Juego.ObtenerProximasRespuestas(pregunta.IdPregunta);
-    ViewBag.CategoriaImagen = ObtenerNombreImagenCategoria(pregunta.IdCategoria);
-
-    return View("Juego");
-}
-
 
         private string ObtenerNombreImagenCategoria(int idCategoria)
         {
@@ -73,9 +86,8 @@ namespace PreguntadORT.Controllers
         [HttpPost]
         public IActionResult VerificarRespuesta(int idPregunta, int idRespuesta)
         {
+            Console.WriteLine($"Valor de idPregunta antes de pasar a VerificarRespuesta: {idPregunta}");
             bool esCorrecta = Juego.VerificarRespuesta(idPregunta, idRespuesta);
-
-
             ViewBag.EsCorrecta = esCorrecta;
 
             return View("Respuesta");
@@ -87,3 +99,4 @@ namespace PreguntadORT.Controllers
 
     }
 }
+

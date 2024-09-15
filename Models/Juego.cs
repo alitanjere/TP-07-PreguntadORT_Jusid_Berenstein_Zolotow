@@ -59,8 +59,7 @@ public class Juego
 
     public static bool VerificarRespuesta(int idPregunta, int idRespuesta)
 {
-    Respuesta respuestaSeleccionada = ListRespuestas.FirstOrDefault(r => r.IdRespuesta == idRespuesta);
-
+    Respuesta respuestaSeleccionada = ListRespuestas.FirstOrDefault(r => r.IdRespuesta == idRespuesta);    
     if (respuestaSeleccionada != null && respuestaSeleccionada.Correcta)
     {
         cantidadPreguntasCorrectas++;
@@ -71,10 +70,4 @@ public class Juego
     return false;
 }
 
-
-
-    public static Respuesta BuscarRespuesta(int idRespuesta)
-    {
-        return ListRespuestas.FirstOrDefault(r => r.IdRespuesta == idRespuesta);
-    }
 }
